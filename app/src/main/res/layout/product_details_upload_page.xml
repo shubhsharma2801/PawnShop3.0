@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Product Details"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/textView"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_selector" />
+
+    <RelativeLayout
+        android:layout_width="325dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:alpha="0.7"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/app_icon"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="325dp"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="380dp">
+
+            <android.support.design.widget.TextInputEditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/name_upload"
+                  android:hint="Name"
+                  android:inputType="text"
+                  android:layout_gravity="start"
+                  android:textAlignment="viewStart"
+
+                />
+
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price_upload"
+                    android:hint="Price"
+                    android:inputType="number|numberDecimal"
+                    android:textAlignment="viewStart"
+                    android:layout_gravity="start"
+
+                    />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/product_description_upload"
+                android:hint="Description"
+                android:inputType="text|textMultiLine"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Project Type"
+                android:textSize="18sp"
+                android:id="@+id/project_type"
+                android:layout_gravity="start"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="viewStart"
+                    />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="visible"
+                android:id="@+id/radioGroup"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project"
+                    android:id="@+id/radioButton"
+                    android:checked="false"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Components"
+                    android:id="@+id/radioButton2"
+                    android:checked="false"
+                    android:textSize="18sp"
+                    />
+            </RadioGroup>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_title"
+                android:gravity="start" />
+
+            <Button
+                android:text="Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/save_button"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/cartbutton_selector"
+                style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

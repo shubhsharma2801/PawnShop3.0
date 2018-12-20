@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card2"
+    android:backgroundTint="@color/colorPrimary"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="400dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textAutoCorrect"
+                android:hint="Name"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="?attr/colorAccent" />
+            <EditText
+                android:id="@+id/user_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="?attr/colorAccent"
+                android:inputType="text|textPostalAddress" />
+
+            <EditText
+                android:id="@+id/user_mobile_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:textColorHint="@color/colorAccent"
+                android:inputType="number|numberSigned"
+                android:textColor="?attr/colorAccent" />
+
+            <EditText
+                android:id="@+id/user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text|textAutoCorrect|textEmailAddress|textWebEmailAddress"
+                android:hint="Email Id"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="?attr/colorAccent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColorHint="@color/colorAccent"
+                android:textColor="?attr/colorAccent"
+                android:ems="10"
+                android:id="@+id/create_password" />
+        </LinearLayout>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:text="Go"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/circle_button_selector_2"
+        android:layout_height="wrap_content"
+        android:id="@+id/go_register"
+        android:layout_width="50dp"
+        android:textSize="18sp" />
+</android.support.v7.widget.CardView>

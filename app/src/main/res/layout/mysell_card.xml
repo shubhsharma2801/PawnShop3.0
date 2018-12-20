@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/card3"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="4dp"
+    android:layout_height="wrap_content"
+    android:layout_width="150dp"
+    >
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+        <ImageView
+            android:src="@drawable/onload"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/product_image" />
+
+
+        <TextView
+                android:layout_below="@+id/product_image"
+            android:text="Product Name"
+                android:id="@+id/product_name"
+            android:textSize="12sp"
+            android:layout_toStartOf="@+id/linearLayout"
+            android:layout_toLeftOf="@+id/linearLayout"
+            android:layout_width="100dp"
+            android:layout_height="18dp" />
+
+            <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs:100"
+                android:textSize="12sp"
+        android:id="@+id/product_price"
+                android:layout_below="@+id/product_name"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+           android:background="@color/transparent4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/card3">
+
+            <ImageView
+                android:src="@drawable/mark_box"
+                android:id="@+id/mark_sold"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Sold"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/update_details"
+                android:src="@drawable/update_product"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

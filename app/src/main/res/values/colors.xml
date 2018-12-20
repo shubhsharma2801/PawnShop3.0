@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37BC9B</color>
+    <color name="colorPrimaryDark">#49CFAD</color>
+    <color name="colorAccent">#FCF7E3</color>
+    <color name="transparent">#b9f8f4f7</color>
+    <color name="transparent2">#a0110a10</color>
+    <color name="transparent3">#00000000</color>
+    <color name="transparent4">#b149cfad</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="color_cartimg_back">#eeeeee</color>
+    <color name="color_menufont">#49CFAD</color>
+</resources>

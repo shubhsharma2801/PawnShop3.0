@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pawn Shop</string>
+    <string name="hello_world">Hello World</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_section1">Computer</string>
+    <string name="title_section2">Electronic</string>
+    <string name="title_section3">Mechanical</string>
+    <string name="title_section4">Sell</string>
+    <string name="title_section5">My Ads</string>
+    <string name="title_section6">Sold</string>
+    <string name="title_section7">Purchased</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Login</string>
+    <string name="title_activity_gpstracker">Map</string>
+    <string name="spinner_title">Category</string>
+
+</resources>

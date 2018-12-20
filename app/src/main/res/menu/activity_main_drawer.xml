@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/my_home"
+            android:icon="@drawable/my_home"
+            android:title="Home" />
+
+    </group>
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/shop"
+            android:icon="@drawable/shop"
+            android:title="Shop"
+            />
+
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/user_deals"
+                android:title="My Deals"
+                android:icon="@drawable/mysell"/>
+            <item
+                android:id="@+id/mywishlist"
+                android:title="Wishlist"
+                android:icon="@drawable/cart"/>
+            <item
+                android:id="@+id/user_sell"
+                android:title="Sell Product"
+                android:icon="@drawable/selling"/>
+            <item
+                android:id="@+id/user_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+            </menu>
+    </item>
+
+
+</menu>
